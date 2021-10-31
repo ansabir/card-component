@@ -1,0 +1,85 @@
+/* Importing Raleway font family */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500;600&display=swap");
+
+/* style the body component */
+body {
+    background-color: #eaeff1;
+    font-family: "Raleway", sans-serif;
+}
+
+/* giving width of 100% so it be fit to the screen */
+img {
+    width: 100%;
+    border-radius: 12px; /* gives the radius to the img */
+    height: 214px; /* gives the height of 214 px */
+    object-fit: cover;
+}
+
+/* Select the container component */
+#container {
+    max-width: 300px; /* Sets the width of the container */
+    margin: 0 auto; /* center the container in middle on horizontal axis */
+    margin-top: 20vh; /* Add empty space above the container (20% of the view height) */
+}
+
+/* Select the card component */
+.card {
+    background-color: white; /* Change the background color */
+    border: 1px solid #bacdd8; /* Add border */
+
+    /* Add space between the border and the content */
+    padding: 8px;
+    border-radius: 12px;
+}
+
+
+/* Style div elements that have class eqaul to tag */
+.tag {
+    padding: 4px 8px;
+    border: 1px solid #e5eaed;
+    border-radius: 50px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #788697;
+}
+
+/* Style div elements that have class eqaul to name */
+.name {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 16px;
+}
+
+/* Style p element */
+p {
+    font-size: 14px;
+    color: #7f8c9b;
+    line-height: 150%;
+}
+
+/* Style button element */
+button {
+    border: none;
+    padding: 12px 24px;
+    border: 50px;
+    font-weight: 600;
+    color: #0077ff;
+    background-color: #e0efff;
+    margin: 0 auto;
+    display: block;  /* Button is inline-block element by default, it need to have block display for margin: 0 auto; to work */
+    cursor: pointer; /* Button is a clickable element, therefore it should have a pointer cursor */
+}
+
+/* Style div elements that have class equal to card__details */
+
+
+.card__details {
+    padding: 16px 8px 8px 8px; /* Add space around the card details */
+}
+
+/* Add style when button is focused or hovered */
+button:focus,
+button:hover{
+    background-color: #0077ff;
+    color: #e0efff;
+}
